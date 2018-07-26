@@ -2116,7 +2116,7 @@ public class HttpService extends TopHttpService {
      * 请求类型 get
      * 请求Url /app/newsandactivity/readed/2.0.2
      * 接口描述 展开
-     * newsReaded：资讯状态，1：有未读、0：没有未读 activityReaded ：活动状态，1：有未读、0：没有未读 liecaiReaded：猎财状态，1：有未读、0：没有未读（资讯和活动都...
+     * newsReaded：资讯状态，1：有未读、0：没有未读 activityReaded ：活动状态，1：有未读、0：没有未读 liecaiReaded：理财状态，1：有未读、0：没有未读（资讯和活动都...
      *
      * @param token token
      * @return LiecaiHasUnReadActivitiesEntity

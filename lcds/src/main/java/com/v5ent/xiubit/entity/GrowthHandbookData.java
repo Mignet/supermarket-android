@@ -16,7 +16,7 @@ public class GrowthHandbookData extends BaseEntity {
     /**
      * source : 测试内容0h11
      * appType : 1
-     * description : 从0开始，教你如何猎财
+     * description : 从0开始，教你如何理财
      * extends1 :
      * extends2 :
      * extends3 :

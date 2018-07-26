@@ -24,7 +24,7 @@ import java.util.Map;
 
 public class DynamicSkipManage {
     public final static int SKIPTAG_PRODUCT_LIST = 11;  //产品分类
-    public final static int SKIP_HUNTER_INFORMATION = 13; //猎财资讯
+    public final static int SKIP_HUNTER_INFORMATION = 13; //理财资讯
 
 
 

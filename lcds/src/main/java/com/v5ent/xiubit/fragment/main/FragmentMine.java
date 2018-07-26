@@ -492,7 +492,7 @@ public class FragmentMine extends FragmentBase {
     public void onClick(View view) {
         Intent intent;
         switch (view.getId()) {
-            case R.id.aboutLiecai:  //关于猎财
+            case R.id.aboutLiecai:  //关于貅比特
                 ctx.startActivity(new Intent(ctx, AboutUs.class));
                 break;
             case R.id.awardMoneyEntry: //奖励金

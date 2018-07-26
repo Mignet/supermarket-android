@@ -21,7 +21,7 @@ interface AwardMoneyApi {
      * 接口名称 奖励金明细
      * 请求类型 get
      * 请求Url  /api/sign/bounty/detail/4.6.0
-     * 类型： 1：签到 2：抽奖奖励金 3：转出到猎财余额 4：抽奖消耗
+     * 类型： 1：签到 2：抽奖奖励金 3：转出到理财余额 4：抽奖消耗
      * 变量名	含义	类型	备注
      * pageIndex	页码	number
      * pageSize	页面大小	number

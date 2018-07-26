@@ -69,7 +69,7 @@ public class AboutUs extends MyBaseActivity implements View.OnClickListener {
 
     private void initTopTitle() {
         headerLayout = (HeaderLayout) findViewById(R.id.headerLayout);
-        headerLayout.showTitle("关于猎财");
+        headerLayout.showTitle("关于貅比特");
         headerLayout.showLeftBackButton();
         setTranslucentStatus(true);
         headerLayout.setHeadViewCoverStateBar();
@@ -170,9 +170,9 @@ public class AboutUs extends MyBaseActivity implements View.OnClickListener {
                 break;
 
 
-            case R.id.mine_about_rl: // 关于猎财
+            case R.id.mine_about_rl: // 关于貅比特
 
-                WebActivityCommon.showThisActivity(ctx, MyApp.getInstance().getDefaultSp().getUrlAboutMe(), "猎财是什么");
+                WebActivityCommon.showThisActivity(ctx, MyApp.getInstance().getDefaultSp().getUrlAboutMe(), "貅比特是什么");
                 break;
             case R.id.mine_version_update_info_rl: // 更新日志
 

@@ -78,7 +78,7 @@
     <!--Mainactivity-->
     <string name="app_name">貅比特</string>
     <string name="main_btn_home">首页</string>
-    <string name="main_btn_liecai">猎财</string>
+    <string name="main_btn_liecai">理财</string>
     <string name="main_btn_mine">我的</string>
     <!--<string name="main_title_pop_declaration">我要报单</string>-->
     <!--<string name="main_title_pop_contact_service">联系客服</string>-->
@@ -174,7 +174,7 @@
     <string name="deal_dynamic_no_buylist">推荐产品给客户购买后就有申购动态了!</string>
     <string name="deal_dynamic_no_redeem">客户购买了您推荐的产品\n赎回的时候就有赎回动态了!</string>
 
-    <!-- FragmentLiecai猎财-->
+    <!-- FragmentLiecai理财-->
     <string name="liecai_news">资讯</string>
     <string name="liecai_teach">课堂</string>
     <string name="liecai_activity">活动</string>
@@ -234,7 +234,7 @@
     <!--declarationActivity 报单表单-->
 
     <!--declarationRecordList 报单List-->
-    <string name="declaration_list_no_records">如果客户已经购买,交易动态中却无购买记录,\n请点击下方按钮把购买信息报给猎财,\n客户电话: 400-888-6987</string>
+    <string name="declaration_list_no_records">如果客户已经购买,交易动态中却无购买记录,\n请点击下方按钮把购买信息报给理财,\n客户电话: 400-888-6987</string>
 
     <!--Calculator 佣金计算器-->
 
@@ -302,16 +302,16 @@
     <!--机构详情  Orginfo_Detail-->
     <string name="recommend_remind_buy_self">自己购买请移步至T呗微信公众号</string>
     <string name="recommend_remind_declaration">如客户购买请记得报单</string>
-    <!--fragmentLiecai 猎财界面-->
+    <!--fragmentLiecai 理财界面-->
     <string name="liecai_no_activities">暂无活动</string>
     <string name="liecai_no_class">还没开学,课堂暂无内容哦</string>
     <string name="liecai_no_news">暂无资讯</string>
 
     <!--账号余额 我的收益 -->
-    <string name="myaccount_income_remain">猎财余额(元)</string>
-    <string name="myaccount_income_remain_title">猎财余额</string>
+    <string name="myaccount_income_remain">理财余额(元)</string>
+    <string name="myaccount_income_remain_title">理财余额</string>
     <!--  <string name="myaccount_income_total_request">账户总收益为已发放的收益总计月度佣金、推荐奖励需等次月15号发放时才计入总收益；团队leader奖励为每季度次月15号发放时计入总收益</string>-->
-    <string name="myaccount_income_accout">猎财余额可以提现，但不能直接用于入驻平台的投资。</string>
+    <string name="myaccount_income_accout">理财余额可以提现，但不能直接用于入驻平台的投资。</string>
     <string name="myaccount_income_combination_request">总收益=销售佣金+推荐奖励+直接管理津贴+团队管理津贴+活动奖励+投资返现红包</string>
 
     <!--invite_coutom invate_cfp_history 邀请记录-->
@@ -373,7 +373,7 @@
     <string name="person_center">个人中心</string>
     <string name="konw_us">了解我们</string>
     <string name="safe_protect">安全保障</string>
-    <string name="liecai_strategy">猎财攻略</string>
+    <string name="liecai_strategy">理财攻略</string>
     <string name="cfg_dynamic">理财师动态</string>
 
     <string name="home_bottom_company_info_1">赋格集团亿元投资\n中国最具价值投资集团公司</string>
@@ -405,7 +405,7 @@
     <string name="insureance_home_question_text1">\“保险犹豫期是什么意思?\”</string>
     <string name="insureance_home_question_text2">\“网上买保险靠谱吗?\”</string>
     <string name="insureance_home_question_text3">\“重疾险越早买越好?\”</string>
-    <string name="net_load_profie_indroduce">综合年化收益率 = 所有在投产品累计收益（包括：投资收益+猎财佣金+猎财返现红包+平台奖励） ／ 所有在投产品累计年化金额</string>
+    <string name="net_load_profie_indroduce">综合年化收益率 = 所有在投产品累计收益（包括：投资收益+理财佣金+理财返现红包+平台奖励） ／ 所有在投产品累计年化金额</string>
 
     <string name="home_bottext1">诚信中国\n标杆企业</string>
     <string name="home_bottext2">改革创新\n先锋企业</string>

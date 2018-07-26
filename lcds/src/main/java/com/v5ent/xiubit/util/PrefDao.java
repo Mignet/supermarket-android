@@ -44,8 +44,8 @@ public class PrefDao extends TopPrefDao {
         editor.putString("informationDetail", data.getInformationDetail()); //资讯详情 V1.2.0
         editor.putString("bulletinDetailDefaultUrl", data.getBulletinDetailDefaultUrl());
         editor.putString("commissionCalculationRuleUrl", data.getCommissionCalculationRuleUrl()); //佣金计算规则
-        editor.putString("tutorial", data.getTutorial()); //一分钟教你猎财 V1.2.1
-        editor.putString("investmentStrategy", data.getInvestmentStrategy()); //猎财攻略V1.2.1 2016-10-27
+        editor.putString("tutorial", data.getTutorial()); //一分钟教你理财 V1.2.1
+        editor.putString("investmentStrategy", data.getInvestmentStrategy()); //理财攻略V1.2.1 2016-10-27
         editor.putString("informationDetailUrl", data.getInformationDetailUrl()); //机构动态V2.0.0 2016-11-15
         editor.putString("orgDetailUrl", data.getOrgDetailUrl()); //机构详情链接 2016/12/6 0006
         editor.putString("frameWebUrl", data.getFrameWebUrl()); //2.0.2以后新加的url 统一使用这个字段的url 拼接Type 切换不同的页面 2016/12/6 0006
@@ -192,14 +192,14 @@ public class PrefDao extends TopPrefDao {
     }
 
     /**
-     * 功能：一分钟教你猎财 V1.2.1  2016/10/18 0018
+     * 功能：一分钟教你理财 V1.2.1  2016/10/18 0018
      */
     public String getFinancialUrl() {
         return pref.getString("tutorial", C.URL_TEACH_FANANCIAL);
     }
 
     /**
-     * 2016/10/27 0027  猎财攻略
+     * 2016/10/27 0027  理财攻略
      */
     public String getInvestmentStrategy() {
         return pref.getString("investmentStrategy", C.URL_INVESTMENTSTRATEGY);
@@ -213,7 +213,7 @@ public class PrefDao extends TopPrefDao {
     }
 
     /**
-     * 机构详情链接 猎财跳转H5
+     * 机构详情链接 理财跳转H5
      *
      * @return getOrgDetailUrl
      */
@@ -245,7 +245,7 @@ public class PrefDao extends TopPrefDao {
 /*-----------------------------------------------------------------------------------------*/
 
     /**
-     * 获取是第一次进来否显示过猎财界面
+     * 获取是第一次进来否显示过理财界面
      *
      * @return
      */
@@ -254,7 +254,7 @@ public class PrefDao extends TopPrefDao {
     }
 
     /**
-     * 设置已经显示了猎财界面
+     * 设置已经显示了理财界面
      */
     public void setHasShowLiecaiGuideTrue() {
         editor.putBoolean("hasShowLiecaiGuide", true).commit();

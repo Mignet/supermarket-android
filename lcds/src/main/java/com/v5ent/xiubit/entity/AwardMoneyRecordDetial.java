@@ -15,7 +15,7 @@ public class AwardMoneyRecordDetial extends BaseEntity {
              * amountType : 0
              * createTime : 2018-04-10 14:42:57
              * type : 3
-             * typeName : 转出到猎财余额
+             * typeName : 转出到理财余额
              */
 
             public String amount;

@@ -120,6 +120,7 @@ public class MyApp extends TopApp {
         if (BuildConfig.LogOpen) {
             Pandora.init(this);
         }
+//        Pandora.init(this).open() ;
     }
 
 

@@ -17,7 +17,7 @@ public class IncomeAndOutDetail extends BaseEntity {
      * tranName : 提现交易名称
      * tranTime : 交易时间
      * withdrawRemark :提现备注（支出）
-     * userType :区分那个端（T呗、猎财）
+     * userType :区分那个端（T呗、理财）
      */
 
     private String amount;

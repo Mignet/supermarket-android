@@ -59,7 +59,7 @@ public class AllGoodReportActivity extends MyNetworkBaseActivity<OldGoodTransEnt
     }
 
     private void initView() {
-        headerLayout.showTitle("猎财喜报");
+        headerLayout.showTitle("理财喜报");
         headerLayout.showLeftBackButton(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

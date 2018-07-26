@@ -26,7 +26,7 @@ public enum GuideViewType {
 //    FRAGMENT_MINE_GUIDE1(R.drawable.img_guide_mine_page1),
 //    FRAGMENT_MINE_GUIDE2(R.drawable.img_guide_mine_page2),
 //    /**
-//     * 首页-猎财
+//     * 首页-理财
 //     */
 //    FRAGMENT_LIECAI_GUIDE1(R.drawable.img_guide_liecai_page1),
 //

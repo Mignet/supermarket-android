@@ -34,8 +34,8 @@ public class DefaultConfig extends BaseEntity {
     private String informationDetail;//资讯详情url v1.2.0
     private String commissionCalculationRuleUrl;// 佣金计算规则 v1.2.0
 
-    private String tutorial;// 一分钟教你猎财 v1.2.1
-    private String investmentStrategy;// 机构详情 猎财攻略 v1.2.1  2016-10-27
+    private String tutorial;// 一分钟教你理财 v1.2.1
+    private String investmentStrategy;// 机构详情 理财攻略 v1.2.1  2016-10-27
     private String domainUrl;// baseUrl v1.2.1  2016-10-27
     private String informationDetailUrl;// 机构动态  2016-11-15
     //V2.0.2添加

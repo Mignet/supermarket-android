@@ -79,7 +79,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
-                        android:text="猎财是什么?"/>
+                        android:text="貅比特是什么?"/>
 
                     <ImageView
                         android:id="@+id/mine_about_go_right"

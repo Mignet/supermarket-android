@@ -109,7 +109,7 @@ abstract class MyBaseInviteActivity extends MyTitleBaseActivity {
     private void showPopupWindow(ShareContent shareContent) {
         if (shareContent != null) {
 
-            //添加分享 猎财与投呗分享链接带参数标识与猎财app内h5流量监控
+            //添加分享 理财与投呗分享链接带参数标识与理财app内h5流量监控
             String link = shareContent.getLink();
             if (link != null && !link.contains("&fromApp=liecai&os=Android")) {
                 shareContent.setLink(TextUrlUtils.addUrlStr(link, HttpService.getInstance().getShareUrlEndSuffix()));

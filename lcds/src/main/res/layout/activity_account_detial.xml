@@ -41,7 +41,7 @@
                             style="@style/text_small12_white_size_style"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="猎财余额(元)"/>
+                            android:text="理财余额(元)"/>
 
                         <com.v5ent.xiubit.view.MyTextView
                             android:id="@+id/accountBalanceTv"

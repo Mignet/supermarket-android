@@ -80,7 +80,7 @@ public class GoodReportActivity extends MyNetworkBaseActivity<GoodTransEntity> {
     }
 
     private void initView() {
-        headerLayout.showTitle("猎财喜报");
+        headerLayout.showTitle("理财喜报");
         headerLayout.showLeftBackButton();
     }
 

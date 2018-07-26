@@ -5,8 +5,8 @@ import com.v5ent.xiubit.R;
 
 public class C {
 
-    public static final String URL_DEFAULT = "http://www.toobei.com/";
-    public static final String URL_IMAGE_SERVER_DEFAULT = "http://image.tophlc.com/";
+    public static final String URL_DEFAULT = "http://www.bethye.top/";
+    public static final String URL_IMAGE_SERVER_DEFAULT = "http://image.bethye.top/";
 
 
   
@@ -14,27 +14,27 @@ public class C {
     /**
      * 常见问题 question
      */
-    public static final String URL_COMMON_QUESTION = "http://liecai.toobei.com/pages/question/index.html";
+    public static final String URL_COMMON_QUESTION = "http://liecai.bethye.top/pages/question/index.html";
     /**
      * 邀请理财师规则
      */
-    public static final String URL_RECOMMEND_RULE = "http://liecai.toobei.com/pages/agreement/recommendRule.html";
+    public static final String URL_RECOMMEND_RULE = "http://liecai.bethye.top/pages/agreement/recommendRule.html";
     /**
      * 2016/10/12 0012  貅比特佣金计算规则
      */
-    public static final String URL_CALCULATOR_RULE = "http://liecai.toobei.com/pages/financing/commissionRules.html";
+    public static final String URL_CALCULATOR_RULE = "http://liecai.bethye.top/pages/financing/commissionRules.html";
     /**
-     * 猎财攻略  2016/10/27 0027
+     * 理财攻略  2016/10/27 0027
      */
-    public static final String URL_INVESTMENTSTRATEGY = "http://liecai.toobei.com/pages/financing/guide.html";
+    public static final String URL_INVESTMENTSTRATEGY = "http://liecai.bethye.top/pages/financing/guide.html";
     /**
      * 2016/10/12 0012  一分钟教你理财
      */
-    public static final String URL_TEACH_FANANCIAL = "http://liecai.toobei.com/pages/question/guide.html";
+    public static final String URL_TEACH_FANANCIAL = "http://liecai.bethye.top/pages/question/guide.html";
     /**
      * 貅比特红包使用说明
      */
-    public static final String URL_REDPACKET_USE_RULE = "http://liecai.toobei.com/pages/question/ques_redpacket.html";
+    public static final String URL_REDPACKET_USE_RULE = "http://liecai.bethye.top/pages/question/ques_redpacket.html";
     /**
      * 公告
      */
@@ -42,22 +42,22 @@ public class C {
     /**
      * 貅比特用户服务协议
      */
-    public static final String URL_SERVICE_PROTOCOL = "http://liecai.toobei.com/pages/agreement/recommendRule.html";
+    public static final String URL_SERVICE_PROTOCOL = "http://liecai.bethye.top/pages/agreement/recommendRule.html";
 
     /**
      * 关于我们
      */
-    public static final String URL_ABOUT_WE = "http://liecai.toobei.com/pages/about/about.html";
+    public static final String URL_ABOUT_WE = "http://liecai.bethye.top/pages/about/about.html";
 
     /**
-     * 资讯详情  http://liecai.toobei.com/pages/information/information_detail.html?newsId=73
+     * 资讯详情  http://liecai.bethye.top/pages/information/information_detail.html?newsId=73
      */
-    public static final String URL_INFORMATION_DETAIL = "http://liecai.toobei.com/pages/information/information_detail.html";
+    public static final String URL_INFORMATION_DETAIL = "http://liecai.bethye.top/pages/information/information_detail.html";
 
     /**
      * 微信分享logo
      */
-    public static final String URL_WECHAT_LOGO = "http://liecai.toobei.com/static/images/lcds_icon_80.png";
+    public static final String URL_WECHAT_LOGO = "http://liecai.bethye.top/static/images/lcds_icon_80.png";
 
     /**
      * 机构动态V2.0添加 机构动态 、资讯 、课堂详情链接  /pages/organization/organization_news.html?id=XXXX
@@ -77,7 +77,7 @@ public class C {
     /**
      * 2016/12/6 0006  机构详情URL 理财师在机构中自己购买产品跳转
      */
-    public static final String URL_ORGDETAILURL = "http://www.toobei.com/app/pages/organization/organization_info.html";
+    public static final String URL_ORGDETAILURL = "http://www.bethye.top/app/pages/organization/organization_info.html";
     /**
      * 2.0.2以后新加的url 统一使用这个字段的url 拼接Type 切换不同的页面 2016/12/6 0006
      */
@@ -101,10 +101,10 @@ public class C {
     /**
      * V3.0.0管理津贴
      */
-    public static final String URL_MANAGE_ALLOWANCE = "http://preliecai.toobei.com/pages/message/manage_allowance.html";
+    public static final String URL_MANAGE_ALLOWANCE = "http://preliecai.bethye.top/pages/message/manage_allowance.html";
 
     /**
-     * 猎财攻略
+     * 理财攻略
      */
     public static final String URL_RANK_CALC = "/pages/rank/rank_calc.html";
 
@@ -119,7 +119,7 @@ public class C {
     public static final String URL_SAFESHIELD = "/pages/guide/safeShield.html";
 
     /**
-     * 了解我们/猎财
+     * 了解我们/理财
      */
     public static final String URL_KNOW_US = "/pages/frame/children/understand.html";
     /**
@@ -148,7 +148,7 @@ public class C {
     public static final String UPDATE_LOG ="/pages/message/update_log.html";
 
     /**
-     * 成长手册 http://preliecai.toobei.com/pages/guide/handbook.html?id=XXX
+     * 成长手册 http://preliecai.bethye.top/pages/guide/handbook.html?id=XXX
      */
 
     public static final String GROWTH_HAND_BOOK ="/pages/guide/handbook.html?id=";
@@ -167,7 +167,7 @@ public class C {
     public static final String MORNING_NEWS_PAPER ="/pages/information/morningPaper.html"; //每日早报
     public static final String AVAILABLE_REDPACKET_USE_INTRODUCE ="/pages/message/redPacketUserManual.html"; //可用红包使用说明页面链接
     public static final String COUPON_USE_INTRODUCE ="/pages/message/userManual.html"; //优惠券使用说明
-    public static final String SELECTED_RECOMEND_DETIAL ="/pages/information/selectedRecomendDetail.html?id="; //猎财精选推荐详情
+    public static final String SELECTED_RECOMEND_DETIAL ="/pages/information/selectedRecomendDetail.html?id="; //理财精选推荐详情
     public static final String SIGN_RULE ="/pages/message/signRule.html"; //签到活动规则
     public static final String SIGN_TRANSFER ="/pages/message/signTransfer.html"; // 签到奖励金转出说明链接
     public static final String ORGDETIAL_H5 =getH5WeixinBaseUrl() + "/platformDetail?orgNumber="; // 分享平台详情页链接

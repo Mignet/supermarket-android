@@ -48,7 +48,7 @@ class ShowFormActivity : NetBaseActivity() {
         headerLayout.showTitle("晒单")
         id = intent.getStringExtra("id") ?: ""
 
-//        titleTv.text = "我在${investTime}投资网投网${productDeadLine}天标 ${investAmt}元获得${feeAmt}元猎财返现"
+//        titleTv.text = "我在${investTime}投资网投网${productDeadLine}天标 ${investAmt}元获得${feeAmt}元理财返现"
         showBtn.setOnClickListener { cutImage(true) }
 
         webView.setAppObject(MyTopAppObject())
@@ -75,8 +75,8 @@ class ShowFormActivity : NetBaseActivity() {
                         if (!TextUtil.isEmpty(investTime) && investTime.length >= 10){
                             investTime = investTime.substring(0,10)
                         }
-                        var text = "我在${investTime}投资网投网${response.data.productDeadLine}标${response.data.investAmt}元获得额外${response.data.feeAmt}元猎财返现"
-                        TextDecorator.decorate(titleTv,text).setTextColor(R.color.text_red_common,"获得额外${response.data.feeAmt}元猎财返现").build()
+                        var text = "我在${investTime}投资网投网${response.data.productDeadLine}标${response.data.investAmt}元获得额外${response.data.feeAmt}元理财返现"
+                        TextDecorator.decorate(titleTv,text).setTextColor(R.color.text_red_common,"获得额外${response.data.feeAmt}元理财返现").build()
                     }
 
                 })

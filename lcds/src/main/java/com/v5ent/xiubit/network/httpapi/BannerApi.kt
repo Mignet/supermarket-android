@@ -25,7 +25,7 @@ interface BannerApi {
      * 平台banner:platform_banner,
      * 产品banner:product_banner,
      * 首页banner：app_home_page
-     * ,猎财banner:liecai_banner,
+     * ,理财banner:liecai_banner,
      * 日进斗金:product_day,
      * 年年有余:product_year,
      * 保险banner:insurance_banner

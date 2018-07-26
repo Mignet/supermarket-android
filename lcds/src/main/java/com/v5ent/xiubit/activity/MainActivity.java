@@ -147,7 +147,7 @@ public class MainActivity extends TopMainActivity implements OnCheckedChangeList
                         fragment.skipTab(Integer.parseInt(tabIndext));
                     }
                     break;
-                case "p2": //猎财
+                case "p2": //理财
                     mRadioGroup.check(R.id.main_btn_liecai);
                     break;
                 case "p3": //我的
@@ -214,7 +214,7 @@ public class MainActivity extends TopMainActivity implements OnCheckedChangeList
         mRadioGroup = (RadioGroup) findViewById(R.id.mainActivity_RadioGroup);
         mRadioGroup.setOnCheckedChangeListener(this);
 //        Logger.d("isNewUser", "mainAct" + MyApp.getInstance().isNewUser);
-//        V4.0.0新用户判断跳转首页或猎财
+//        V4.0.0新用户判断跳转首页或理财
 //        if (MyApp.getInstance().isNewUser) {
 //            mRadioGroup.check(R.id.main_btn_liecai);
 //        } else {
@@ -426,7 +426,7 @@ public class MainActivity extends TopMainActivity implements OnCheckedChangeList
                 break;
             case R.id.main_btn_liecai:
                 pressMenu(2);
-                //刷新猎财未读消息
+                //刷新理财未读消息
                 FragmentDiscover fragmentLiecai = (FragmentDiscover) fragments[2];
                 break;
             case R.id.main_btn_mine:

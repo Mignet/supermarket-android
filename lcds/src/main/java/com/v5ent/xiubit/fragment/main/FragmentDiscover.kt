@@ -258,7 +258,7 @@ class FragmentDiscover : FragmentBase() {
             startActivity(Intent(ctx, CfgLevelCalculateActivity::class.java))
         }
         view.findViewById<View>(R.id.tab4).setOnClickListener {
-            //猎财公益
+            //理财公益
             MobclickAgent.onEvent(ctx, "S_1_4");
 //                ShareContent shareContent = new ShareContent("大爱公益"
 //                        , "貅比特携手芒果v基金，为爱前行！"

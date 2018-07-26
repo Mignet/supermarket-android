@@ -21,7 +21,7 @@
        android:textSize="16dp"
        android:textColor="@color/WHITE"
        android:gravity="center"
-       android:text="猎财"/>
+       android:text="理财"/>
 
     <com.scwang.smartrefresh.layout.SmartRefreshLayout
         android:id="@+id/refreshViewSrl"

@@ -16,7 +16,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Activity-猎财排行榜
+ * Activity-理财排行榜
  */
 public class RankLiecaiActivity extends MyTitleBaseActivity {
     @BindView(R.id.fragmentFl)
@@ -40,7 +40,7 @@ public class RankLiecaiActivity extends MyTitleBaseActivity {
 
     private void initView() {
         headerLayout.showLeftBackButton();
-        headerLayout.showTitle("猎财"+mMonth+"月收益榜");
+        headerLayout.showTitle("理财"+mMonth+"月收益榜");
         FragmentManager fm = getFragManager();
         FragmentTransaction transaction = fm.beginTransaction();
         transaction.replace(R.id.fragmentFl,new FragmentRank(0,mMonth));

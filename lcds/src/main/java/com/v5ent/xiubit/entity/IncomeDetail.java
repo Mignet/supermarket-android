@@ -35,7 +35,7 @@ public class IncomeDetail extends BaseEntity {
     private String profixTypeName;      //	profixTypeName	收益类型名称：例：销售佣金	string
     private String time;                //	remark	疑问描述	string
     private String remark;              //	time	时间	string
-    private String typeSuffix;          // 类型描述后缀：猎财活动	,间接，T呗
+    private String typeSuffix;          // 类型描述后缀：理财活动	,间接，T呗
 
     public String getTypeSuffix() {
         return typeSuffix;
