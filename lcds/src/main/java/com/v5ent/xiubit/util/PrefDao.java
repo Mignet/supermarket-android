@@ -120,7 +120,7 @@ public class PrefDao extends TopPrefDao {
      * 客服邮箱
      */
     public String getServiceMail() {
-        return pref.getString("serviceMail", "kefu@toobei.com");
+        return pref.getString("serviceMail", "tongqingshang@163.com");
     }
 
     public String getServiceTelephone() {
@@ -131,7 +131,7 @@ public class PrefDao extends TopPrefDao {
      * 微信公众号
      */
     public String getWechatNumber() {
-        return pref.getString("wechatNumber", "liecaidashi");
+        return pref.getString("wechatNumber", "tsteven520");
     }
 
     /**
